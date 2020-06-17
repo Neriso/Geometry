@@ -1,0 +1,8 @@
+public enum Types {
+    CIRCLE,
+    TRIANGLE,
+    EQUILATERAL_TRIANGLE,
+    RECTANGLE,
+    SQUARE,
+    REGULAR_PENTAGON,
+}
