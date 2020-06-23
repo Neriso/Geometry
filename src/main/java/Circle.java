@@ -6,7 +6,6 @@ public class Circle extends Shape {
     private double perimeter;
 
     public Circle(float radius){
-//        checkIfArgsGreaterThanZero(radius);
         if (radius <= 0){
             throw new IllegalArgumentException("All arguments must be greater than 0");
         } else {

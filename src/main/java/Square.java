@@ -3,7 +3,6 @@ public class Square extends Rectangle {
     private String className;
     private float a;
 
-
     public Square(float a) {
         super(a, a);
         if (a <= 0){
